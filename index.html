@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>80's Action Star Trivia Game</title>
+
+
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+        <script src="assets/javascript/app.js"></script>
+    </head>
+	<body>
+		<div id = start_container>
+			<div class="action_star">
+                <h3>80's Action Star Trivia Game</h3>
+                <br>
+                <p>You have 30 seconds to guess 5 questions</p>
+                <br>
+				<p>Click "BOOM!"" to start</p>
+				<br>
+                <button id = start_button>B O O M !</button>
+            </div>
+		</div>
+		<div id = game_container>
+			 <h1 class = "game_name">80's Action Star Trivia Game</h1>
+	
+			<br>
+            <br>
+
+			<h1 id = "timer_line">Time Remaining: <span id = "timer_number">30 Seconds</span></h1>
+
+			<br>
+			<br>
+			
+			<h1>1. Who was an 80's action star?</h1>
+			 <!-- Answer Sylvester Stallone -->
+				<input type="radio" name="q1" value="Vin Diesel"> Vin Diesel 
+				<input type="radio" name="q1" value="Ronald Reagan"> Ronald Reagan
+				<input type="radio" name="q1" value="Sylvester Stallone">Sylvester Stallone 
+				<input type="radio" name="q1" value="John Wayne">John Wayne 
+				
+            <br>
+
+			<h1>2. What 80's star had the famous movie line "Hasta La Vista Baby?</h1>
+			<!-- Answer Arnold Schwarzenegger   -->
+				<input type="radio" name="q2" value="Antonio Banderas">Antonio Banderas
+				<input type="radio" name="q2" value="Wesley Snipes">Wesley Snipes 
+				<input type="radio" name="q2" value="Cheech Marin ">Cheech Marin  
+				<input type="radio" name="q2" value="Arnold Schwarzenegger">Arnold Schwarzenegger
+
+            <br>
+
+			<h1>3. Who drove Kit in the class 1980's tv action hit Knight Rider?</h1>
+			<!-- Answer David Hasselhoff -->
+				<input type="radio" name="q3" value="Bruce Willis">Bruce Willis
+				<input type="radio" name="q3" value="David Hasselhoff">David Hasselhoff
+				<input type="radio" name="q3" value="Steven Seagal">Steven Seagal
+				<input type="radio" name="q3" value="Dolph Lundgren">Dolph Lundgren 
+
+            <br>
+
+			<h1>4. Who was Lone Wolf McQuade?</h1>
+			<!-- Answer Chuck Norris -->
+				<input type="radio" name="q4" value="Bruce Lee">Bruce Lee
+				<input type="radio" name="q4" value="Jean-Claude Van Damme">Jean-Claude Van Damme 
+				<input type="radio" name="q4" value="Clint Eastwood">Clint Eastwood
+				<input type="radio" name="q4" value="Charles Bronson">Charles Bronson
+				<input type="radio" name="q4" value="Chuck Norris">Chuck Norris
+
+            <br>
+
+			<h1>5. Who was a world renowned archaeologist?</h1>
+			<!-- Answer Harrison Ford-->
+				<input type="radio" name="q5" value="Mel Gibson">Mel Gibson
+				<input type="radio" name="q5" value="Sigourney Weaver">Sigourney Weaver 
+				<input type="radio" name="q5" value="Kurt Russell">Kurt Russull
+				<input type="radio" name="q5" value="Harrison Ford">Harrison Ford
+				<input type="radio" name="q5" value="Jackie Chan">Jackie Chan
+
+				<br>
+
+			<button id = done_button>Done!</button>
+
+		</div>
+		<div id = the_end>
+            
+            <h2 class = "game_name">80's Action Star Trivia Game</h2>
+            <br>
+			<h2 id = "done">All Done!</h2>
+			<br>
+            <br>
+			<h2>Correct Answers: <span id = "correct_answers">0</span></h2>
+			<h2>Incorrect Answers: <span id = "wrong_answers">0</span></h2>
+			<h2>Unanswered: <span id = "unanswered">0</span></h2>
+		</div>
+	</body>
+</html>

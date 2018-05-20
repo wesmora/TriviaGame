@@ -1,0 +1,43 @@
+body {
+    background-image: url('/Users/wesmora/dev/uofu/Homework/Homework5/assets/images/explosion.jpeg');
+    font-family: 'Anton', sans-serif;
+    color:red;
+    letter-spacing: 2px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 1300px 700px;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color:blue;
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+
+}
+h3{
+    font-size: 40px;
+    color: blue;
+}
+p {
+    font-size: 25px;
+}
+
+ #start_container {
+    margin-top: 100px;
+ }
+
+ #game_container  {
+    margin-top: 100px;
+}
+
+#the_end {
+    margin-top: 100px;
+}
+
+.action_star{
+    margin-top: 100px;
+}
